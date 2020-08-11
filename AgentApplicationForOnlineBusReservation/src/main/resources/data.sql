@@ -1,0 +1,3 @@
+INSERT INTO BUS (bus_number, operator_name, source_city_name, destination_city_name, departure_time, arrival_time ,travel_date, price , total_tickets )
+VALUES (101, 'Orange','Bangalore','Chennai', parsedatetime('10-08-2020 18:00:00', 'dd-MM-yyyy hh:mm:ss'),parsedatetime('11-08-2020 09:00:00', 'dd-MM-yyyy hh:mm:ss'), parsedatetime('10-08-2020', 'dd-MM-yyyy'),1200, 30),
+ (102, 'Orange','Chennai','Bangalore', {ts '2020-08-10 18:00'},{ts '2020-08-11 09:00'},  parsedatetime('10-08-2020', 'dd-MM-yyyy') , 1500, 90);
